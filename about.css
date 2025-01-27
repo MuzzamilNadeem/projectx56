@@ -1,0 +1,111 @@
+.hero-section {
+    background-image: url('images/about-bg.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-member img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.timeline-item {
+    margin-bottom: 30px;
+}
+.timeline-item h5 {
+    font-weight: bold;
+}
+
+/* Navbar Customizations */
+.navbar {
+    padding: 1rem; /* Add padding for a bit more space inside the navbar */
+  }
+  
+  .navbar-brand {
+    font-size: 30px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  
+  .navbar-toggler {
+    border-color: #fff; /* Make the hamburger menu icon white */
+  }
+  
+  /* Navbar links hover effect */
+  .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+  }
+  @media (max-width: 768px) {
+    footer .col-md-4 {
+      text-align: center;
+    }
+    footer .col-md-4 ul {
+      padding-left: 0;
+      list-style-type: none;
+    }
+    footer .col-md-4 a {
+      display: block;
+      margin-bottom: 8px;
+    }
+  }
+  /* Hover effect for all buttons */
+.btn {
+    transition: background-color 0.3s, transform 0.3s ease;
+  }
+  
+  /* Hover state for primary buttons */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #004085;
+    transform: scale(1.05); /* Slightly grow the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow on hover */
+  }
+  
+  /* Hover effect for the secondary buttons if used */
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268; /* Darker grey */
+    border-color: #4e555b;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add hover effect for the link buttons (if used in any other links) */
+  a.btn:hover {
+    color: #ffffff !important;  /* Ensure text color changes to white on hover */
+    text-decoration: none;  /* Remove underline on hover */
+    transform: scale(1.05);
+  }
+  
